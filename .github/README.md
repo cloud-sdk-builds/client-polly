@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-polly`](https://www.npmjs.com/package/@aws-sdk/client-polly/v/3.1044.0).
+[`@aws-sdk/client-polly`](https://www.npmjs.com/package/@aws-sdk/client-polly/v/3.1045.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-polly - [https://cloud-sdk-builds.github.io/?sdk=client-polly](https://cloud-sdk-builds.github.io/?sdk=client-polly)
-- @aws-sdk/client-polly v3.1044.0 - [https://cloud-sdk-builds.github.io/?sdk=client-polly&version=3.1044.0](https://cloud-sdk-builds.github.io/?sdk=client-polly&version=3.1044.0)
+- @aws-sdk/client-polly v3.1045.0 - [https://cloud-sdk-builds.github.io/?sdk=client-polly&version=3.1045.0](https://cloud-sdk-builds.github.io/?sdk=client-polly&version=3.1045.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-polly@3.1044.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-polly@3.1045.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-a9Y38w901z80E7BKpNrBRfkz5R+Ae7n13dWqm2NoNMF/l2sMfg0fzApUWPyt+L70
+sha384-FBz3Kdq1bby4dMfjlhSEVWPtnI7jhM3QtLd6r4NpbLZtkwpo2xSPFM4glwxunMy5
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-polly": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-polly@3.1044.0/index.min.mjs"
+            "@aws-sdk/client-polly": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-polly@3.1045.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-polly@3.1044.0/index.min.mjs": "sha384-a9Y38w901z80E7BKpNrBRfkz5R+Ae7n13dWqm2NoNMF/l2sMfg0fzApUWPyt+L70"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-polly@3.1045.0/index.min.mjs": "sha384-FBz3Kdq1bby4dMfjlhSEVWPtnI7jhM3QtLd6r4NpbLZtkwpo2xSPFM4glwxunMy5"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-polly": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-polly@3.1044.0/index.min.mjs"
+                        "@aws-sdk/client-polly": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-polly@3.1045.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-polly@3.1044.0/index.min.mjs": "sha384-a9Y38w901z80E7BKpNrBRfkz5R+Ae7n13dWqm2NoNMF/l2sMfg0fzApUWPyt+L70"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-polly@3.1045.0/index.min.mjs": "sha384-FBz3Kdq1bby4dMfjlhSEVWPtnI7jhM3QtLd6r4NpbLZtkwpo2xSPFM4glwxunMy5"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1044.0`)
+* Always pin to a specific version (`@3.1045.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-polly/blob/refs/tags/3.1044.0/LICENSE
+https://github.com/cloud-sdk-builds/client-polly/blob/refs/tags/3.1045.0/LICENSE
 ```
 
 ---
